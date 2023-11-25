@@ -1,0 +1,125 @@
+/* styles for the top container */
+.top-container{
+    background-color: #e4f9f5;
+    color: #66bfbf;
+    height: 100vh;
+}
+p{
+    font-family: "Merriweather", serif;
+    color: #454545;
+}
+h1, h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #66bfbf;
+    padding-top: 50px;
+}
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 4rem;
+}
+h2{
+    font-size: 2rem;    
+}
+h3{
+    color: #66bfbf;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.mountain{
+    display: block;
+    margin: auto;
+}
+.cloud{
+    height: 2.5rem;   
+}
+ .top-cloud{
+    position: absolute;
+    left: 70%;
+} 
+.bottom-cloud{
+    position: absolute;
+    left: 20%;
+}
+
+
+/* styles for the profile */
+.profile{
+    margin-top: 8rem;
+}
+.profile-picture{
+    height: 10rem;
+    display: block;
+    margin: auto;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+hr{
+	background-color: #fff;
+	border-top: 2px dashed #8c8b8b;
+}
+
+/*styles for middle container*/
+.middle-container{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+/*styles for skills section*/
+
+.skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    margin-left: 25%;
+    gap: 5rem;
+    padding: 1rem;
+    margin-bottom: 5rem;
+}
+.designAndDevelopmentImage img{
+    width: 12rem;
+    margin-left: 20%;
+}
+.hotWingsChallengeImage img{
+    width: 15rem;
+    margin-left: 15%;
+}
+
+/*styles for contactme section*/
+.contactMessage{
+    width: 25%;
+    margin: auto;
+}
+.contactButton{
+    background-color:#11cdd4;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 20px;
+    text-decoration: none;
+}
+.contactMe{
+    height: 20rem;
+}
+body{
+    text-align: center;
+}
+/*styles for the bottom-container*/
+.bottom-container{
+    height: 10rem;
+    background-color: #e4f9f5;
+}
+.bottom-container a{
+    color: #66bfbf;
+    padding: 2rem;
+    text-decoration: none;
+}
+.copyrights{
+    color:#66bfbf;
+    margin-top: 3rem;
+}
